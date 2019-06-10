@@ -11,7 +11,7 @@ for dirName, subdirList, fileList in os.walk(rootDir):
     print('==>',dirName, subdirList, fileList,'<==')
 
     #print('Files inside directory: %s' % dirName)
-    for fname in fileList:
+    for fname in fileList:s
         #print('\t%s' % fname)
         files[os.path.abspath(fname)]=[]      
         
