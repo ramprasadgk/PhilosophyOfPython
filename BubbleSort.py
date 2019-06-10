@@ -20,4 +20,6 @@ def bubblesort(U):
 if __name__ == '__main__':
     unsorted = [3,-3,-1]
     bubblesort(unsorted)
+
+print('done')
     
